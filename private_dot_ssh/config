@@ -1,0 +1,19 @@
+Host *
+    AddKeysToAgent yes
+    UseKeychain yes
+    ServerAliveInterval 300
+    ServerAliveCountMax 2
+    PubkeyAcceptedKeyTypes +ssh-dss
+    KexAlgorithms +diffie-hellman-group1-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
+    # diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
+    HostKeyAlgorithms +ssh-dss
+    Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
+    StrictHostKeyChecking no
+
+Host ns4.labs.pp
+	HostName ns4.labs.lacnic.net
+	ProxyJump micron.lacnic.net.uy:1352
+
+Host edge03.pp
+	HostName 200.7.84.37
+	ProxyJump caronte.lacnic.net.uy:1352
