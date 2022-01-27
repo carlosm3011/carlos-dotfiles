@@ -17,10 +17,10 @@
 $
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1643303942,,"wq"
 :q!
 |2,0,1643119723,,"q!"
-:wq
-|2,0,1643114883,,"wq"
 :w
 |2,0,1642728475,,"w"
 :q1
@@ -110,34 +110,46 @@ $
 |3,1,36,0,1,0,1643114881," "
 
 # File marks:
-'0  1  0  ~/.viminfo
-|4,48,1,0,1643119723,"~/.viminfo"
-'1  9  0  /private/var/folders/fv/j8wvb4k175gfg0xy6yptq0nr0000gn/T/chezmoi-edit2718658483/.zshrc
-|4,49,9,0,1643114883,"/private/var/folders/fv/j8wvb4k175gfg0xy6yptq0nr0000gn/T/chezmoi-edit2718658483/.zshrc"
-'2  21  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/bin/netdata.py
-|4,50,21,0,1642728898,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/bin/netdata.py"
-'3  7  3  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt
-|4,51,7,3,1642728628,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt"
-'4  1  94  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
-|4,52,1,94,1642728463,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
-'5  2  4  ~/02.hs
-|4,53,2,4,1642546634,"~/02.hs"
-'6  1  0  ~/01.hs
-|4,54,1,0,1642544792,"~/01.hs"
+'0  1  1  ~/.zprofile
+|4,48,1,1,1643303942,"~/.zprofile"
+'1  1  0  ~/.viminfo
+|4,49,1,0,1643119723,"~/.viminfo"
+'2  9  0  /private/var/folders/fv/j8wvb4k175gfg0xy6yptq0nr0000gn/T/chezmoi-edit2718658483/.zshrc
+|4,50,9,0,1643114883,"/private/var/folders/fv/j8wvb4k175gfg0xy6yptq0nr0000gn/T/chezmoi-edit2718658483/.zshrc"
+'3  21  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/bin/netdata.py
+|4,51,21,0,1642728898,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/bin/netdata.py"
+'4  7  3  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt
+|4,52,7,3,1642728628,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt"
+'5  1  94  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
+|4,53,1,94,1642728463,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
+'6  2  4  ~/02.hs
+|4,54,2,4,1642546634,"~/02.hs"
 '7  1  0  ~/01.hs
-|4,55,1,0,1642512240,"~/01.hs"
-'8  4  15  ~/01.hs
-|4,56,4,15,1642512212,"~/01.hs"
+|4,55,1,0,1642544792,"~/01.hs"
+'8  1  0  ~/01.hs
+|4,56,1,0,1642512240,"~/01.hs"
 '9  4  15  ~/01.hs
 |4,57,4,15,1642512212,"~/01.hs"
 
 # Jumplist (newest first):
+-'  1  1  ~/.zprofile
+|4,39,1,1,1643303942,"~/.zprofile"
+-'  1  0  ~/.viminfo
+|4,39,1,0,1643119723,"~/.viminfo"
 -'  1  0  ~/.viminfo
 |4,39,1,0,1643119723,"~/.viminfo"
 -'  9  0  /private/var/folders/fv/j8wvb4k175gfg0xy6yptq0nr0000gn/T/chezmoi-edit2718658483/.zshrc
 |4,39,9,0,1643114883,"/private/var/folders/fv/j8wvb4k175gfg0xy6yptq0nr0000gn/T/chezmoi-edit2718658483/.zshrc"
 -'  9  0  /private/var/folders/fv/j8wvb4k175gfg0xy6yptq0nr0000gn/T/chezmoi-edit2718658483/.zshrc
 |4,39,9,0,1643114883,"/private/var/folders/fv/j8wvb4k175gfg0xy6yptq0nr0000gn/T/chezmoi-edit2718658483/.zshrc"
+-'  9  0  /private/var/folders/fv/j8wvb4k175gfg0xy6yptq0nr0000gn/T/chezmoi-edit2718658483/.zshrc
+|4,39,9,0,1643114883,"/private/var/folders/fv/j8wvb4k175gfg0xy6yptq0nr0000gn/T/chezmoi-edit2718658483/.zshrc"
+-'  9  0  /private/var/folders/fv/j8wvb4k175gfg0xy6yptq0nr0000gn/T/chezmoi-edit2718658483/.zshrc
+|4,39,9,0,1643114883,"/private/var/folders/fv/j8wvb4k175gfg0xy6yptq0nr0000gn/T/chezmoi-edit2718658483/.zshrc"
+-'  1  0  /private/var/folders/fv/j8wvb4k175gfg0xy6yptq0nr0000gn/T/chezmoi-edit2718658483/.zshrc
+|4,39,1,0,1643114871,"/private/var/folders/fv/j8wvb4k175gfg0xy6yptq0nr0000gn/T/chezmoi-edit2718658483/.zshrc"
+-'  1  0  /private/var/folders/fv/j8wvb4k175gfg0xy6yptq0nr0000gn/T/chezmoi-edit2718658483/.zshrc
+|4,39,1,0,1643114871,"/private/var/folders/fv/j8wvb4k175gfg0xy6yptq0nr0000gn/T/chezmoi-edit2718658483/.zshrc"
 -'  1  0  /private/var/folders/fv/j8wvb4k175gfg0xy6yptq0nr0000gn/T/chezmoi-edit2718658483/.zshrc
 |4,39,1,0,1643114871,"/private/var/folders/fv/j8wvb4k175gfg0xy6yptq0nr0000gn/T/chezmoi-edit2718658483/.zshrc"
 -'  1  0  /private/var/folders/fv/j8wvb4k175gfg0xy6yptq0nr0000gn/T/chezmoi-edit2718658483/.zshrc
@@ -150,6 +162,22 @@ $
 |4,39,21,0,1642728898,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/bin/netdata.py"
 -'  21  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/bin/netdata.py
 |4,39,21,0,1642728898,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/bin/netdata.py"
+-'  21  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/bin/netdata.py
+|4,39,21,0,1642728898,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/bin/netdata.py"
+-'  21  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/bin/netdata.py
+|4,39,21,0,1642728898,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/bin/netdata.py"
+-'  21  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/bin/netdata.py
+|4,39,21,0,1642728898,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/bin/netdata.py"
+-'  21  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/bin/netdata.py
+|4,39,21,0,1642728898,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/bin/netdata.py"
+-'  1  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/bin/netdata.py
+|4,39,1,0,1642728878,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/bin/netdata.py"
+-'  1  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/bin/netdata.py
+|4,39,1,0,1642728878,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/bin/netdata.py"
+-'  1  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/bin/netdata.py
+|4,39,1,0,1642728878,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/bin/netdata.py"
+-'  1  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/bin/netdata.py
+|4,39,1,0,1642728878,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/bin/netdata.py"
 -'  1  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/bin/netdata.py
 |4,39,1,0,1642728878,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/bin/netdata.py"
 -'  1  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/bin/netdata.py
@@ -174,6 +202,38 @@ $
 |4,39,7,3,1642728628,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt"
 -'  7  3  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt
 |4,39,7,3,1642728628,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt"
+-'  7  3  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt
+|4,39,7,3,1642728628,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt"
+-'  7  3  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt
+|4,39,7,3,1642728628,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt"
+-'  7  3  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt
+|4,39,7,3,1642728628,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt"
+-'  7  3  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt
+|4,39,7,3,1642728628,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt"
+-'  7  3  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt
+|4,39,7,3,1642728628,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt"
+-'  7  3  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt
+|4,39,7,3,1642728628,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt"
+-'  7  3  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt
+|4,39,7,3,1642728628,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt"
+-'  7  3  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt
+|4,39,7,3,1642728628,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt"
+-'  1  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt
+|4,39,1,0,1642728464,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt"
+-'  1  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt
+|4,39,1,0,1642728464,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt"
+-'  1  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt
+|4,39,1,0,1642728464,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt"
+-'  1  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt
+|4,39,1,0,1642728464,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt"
+-'  1  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt
+|4,39,1,0,1642728464,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt"
+-'  1  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt
+|4,39,1,0,1642728464,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt"
+-'  1  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt
+|4,39,1,0,1642728464,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt"
+-'  1  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt
+|4,39,1,0,1642728464,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt"
 -'  1  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt
 |4,39,1,0,1642728464,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt"
 -'  1  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/requirements.txt
@@ -222,6 +282,38 @@ $
 |4,39,1,94,1642728463,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
 -'  1  94  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
 |4,39,1,94,1642728463,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
+-'  1  94  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
+|4,39,1,94,1642728463,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
+-'  1  94  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
+|4,39,1,94,1642728463,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
+-'  1  94  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
+|4,39,1,94,1642728463,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
+-'  1  94  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
+|4,39,1,94,1642728463,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
+-'  1  94  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
+|4,39,1,94,1642728463,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
+-'  1  94  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
+|4,39,1,94,1642728463,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
+-'  1  94  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
+|4,39,1,94,1642728463,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
+-'  1  94  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
+|4,39,1,94,1642728463,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
+-'  1  94  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
+|4,39,1,94,1642728463,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
+-'  1  94  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
+|4,39,1,94,1642728463,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
+-'  1  94  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
+|4,39,1,94,1642728463,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
+-'  1  94  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
+|4,39,1,94,1642728463,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
+-'  1  94  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
+|4,39,1,94,1642728463,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
+-'  1  94  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
+|4,39,1,94,1642728463,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
+-'  1  94  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
+|4,39,1,94,1642728463,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
+-'  1  94  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
+|4,39,1,94,1642728463,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
 -'  2  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
 |4,39,2,0,1642728441,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
 -'  2  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
@@ -240,100 +332,15 @@ $
 |4,39,2,0,1642728441,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
 -'  2  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
 |4,39,2,0,1642728441,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
--'  2  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
-|4,39,2,0,1642728441,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
--'  2  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
-|4,39,2,0,1642728441,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
--'  2  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
-|4,39,2,0,1642728441,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
--'  2  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
-|4,39,2,0,1642728441,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
--'  2  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
-|4,39,2,0,1642728441,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
--'  2  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
-|4,39,2,0,1642728441,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
--'  2  0  ~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG
-|4,39,2,0,1642728441,"~/Sync/Checkouts/cm2c-internet-measurements/rir-netdata/.git/COMMIT_EDITMSG"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  2  4  ~/02.hs
-|4,39,2,4,1642546634,"~/02.hs"
--'  1  0  ~/02.hs
-|4,39,1,0,1642546620,"~/02.hs"
--'  1  0  ~/02.hs
-|4,39,1,0,1642546620,"~/02.hs"
--'  1  0  ~/02.hs
-|4,39,1,0,1642546620,"~/02.hs"
--'  1  0  ~/02.hs
-|4,39,1,0,1642546620,"~/02.hs"
--'  1  0  ~/02.hs
-|4,39,1,0,1642546620,"~/02.hs"
--'  1  0  ~/02.hs
-|4,39,1,0,1642546620,"~/02.hs"
--'  1  0  ~/02.hs
-|4,39,1,0,1642546620,"~/02.hs"
 
 # History of marks within files (newest to oldest):
+
+> ~/.zprofile
+	*	1643303942	0
+	"	1	1
+	^	1	2
+	.	1	1
+	+	1	1
 
 > ~/.viminfo
 	*	1643119720	0
