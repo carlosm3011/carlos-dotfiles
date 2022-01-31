@@ -4,14 +4,16 @@
 
 ```
 curl -sfL https://git.io/chezmoi | sh
-chezmoi init --apply https://github.com/carlosm3011/carlos-dotfiles.git
+chezmoi init [--apply] https://github.com/carlosm3011/carlos-dotfiles.git
 ```
+
+El "apply" es opcional, lo que hace es aplicar junto con el checkout todos los cambios pendientes.
 
 ## Instanciar un nuevo puesto de trabajo
 
 ### Instalar paquetes
 
-TBW*
+Modificar el script "run_once_install".
 
 ### Dotfiles
 
