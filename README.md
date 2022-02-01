@@ -4,7 +4,7 @@
 
 ```
 curl -sfL https://git.io/chezmoi | sh
-chezmoi init [--apply] https://github.com/carlosm3011/carlos-dotfiles.git
+chezmoi init [--apply] git@github.com:carlosm3011/carlos-dotfiles.git
 ```
 
 El "apply" es opcional, lo que hace es aplicar junto con el checkout todos los cambios pendientes.
