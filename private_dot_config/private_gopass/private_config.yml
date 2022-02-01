@@ -7,4 +7,5 @@ notifications: true
 parsing: true
 path: ~/sync/vault/password-store
 safecontent: false
-mounts: {}
+mounts:
+    xt6: /Users/carlos/Sync/Vault/password-store-xt6
