@@ -26,4 +26,4 @@ TBW*
 ## Referencias:
 
 1. https://github.com/jmc265/dotfiles
-2. 
+2. https://chezmoi.io
