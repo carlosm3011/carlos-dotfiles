@@ -13,7 +13,7 @@ El "apply" es opcional, lo que hace es aplicar junto con el checkout todos los c
 
 ### Instalar paquetes
 
-Modificar el script "run_once_install".
+Modificar los scripts "run_once_xx-install.sh.tmpl".
 
 ### Dotfiles
 
@@ -21,7 +21,11 @@ TBW*
 
 ## Gestión de dotfiles
 
-TBW*
+- Inicialización del repositorio
+
+- Aplicar los cambios
+   - ```chezmoi update```
+   - ```chezmoi apply``` 
 
 ## Referencias:
 
