@@ -1,8 +1,10 @@
 {{ if eq .chezmoi.os "linux" -}}
 #!/bin/sh
+#v1
 sudo apt install ripgrep
 {{ else if eq .chezmoi.os "darwin" -}}
 #!/bin/sh
+#v1
 brew install ripgrep neovim wget fzf
 brew install rectangle
 brew install pass gopass
