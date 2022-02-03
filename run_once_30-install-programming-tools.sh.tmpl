@@ -1,8 +1,13 @@
 {{ if eq .chezmoi.os "linux" -}}
 #!/bin/sh
+#v1
 echo No fonts to install on Linux (yet)
 {{ else if eq .chezmoi.os "darwin" -}}
 #!/bin/sh
-brew install vscodium
+#v1
+brew install -f vscodium
 brew install scala
+brew install dmd
+brew install go 
+brew install rust
 {{ end -}}

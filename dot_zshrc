@@ -6,7 +6,17 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH:/opt/homebrew/bin
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+# eval $(/opt/homebrew/bin/brew shellenv)
+arch_name="$(uname -m)"
+ 
+if [ "${arch_name}" = "x86_64" ]; then
+    eval $(/usr/local/bin/brew shellenv)
+elif [ "${arch_name}" = "arm64" ]; then
+    eval $(/opt/homebrew/bin/brew shellenv)
+else
+    echo "Unknown architecture: ${arch_name}"
+fi
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/carlos/.oh-my-zsh"

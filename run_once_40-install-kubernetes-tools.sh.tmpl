@@ -1,7 +1,9 @@
 {{ if eq .chezmoi.os "linux" -}}
 #!/bin/sh
+#v1
 echo No kube tools to install on Linux (yet)
 {{ else if eq .chezmoi.os "darwin" -}}
 #!/bin/sh
+#v1
 brew install kubectl kubie k3sup
 {{ end -}}
