@@ -17,3 +17,12 @@ Host ns4.labs.pp
 Host edge03.pp
 	HostName 200.7.84.37
 	ProxyJump caronte.lacnic.net.uy:1352
+
+Host trantor.pp
+	HostName trantor.labs.lacnic.net
+	ProxyJump caronte.lacnic.net.uy:1352
+
+Host mvuy13.pp
+	HostName mvuy13.labs.lacnic.net
+	ProxyJump caronte.lacnic.net.uy:1352
+
