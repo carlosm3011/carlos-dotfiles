@@ -1,7 +1,13 @@
 {{ if eq .chezmoi.os "linux" -}}
 #!/bin/sh
 #v1
-echo No kube tools to install on Linux yet
+    {{ if eq .chezmoi.osRelease.idLike "arch" -}}
+        sudo pacman -S kubectl kubectx kubie
+    {{ else -}}
+        # sudo apt install ripgrep neovim
+        echo No kubernetes tools for Debian/ubuntu
+    {{ end -}}
+##
 {{ else if eq .chezmoi.os "darwin" -}}
 #!/bin/sh
 #v1
