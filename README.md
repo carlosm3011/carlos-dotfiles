@@ -4,6 +4,7 @@
 
 ```
 curl -sfL https://git.io/chezmoi | sh
+install -m 0711 -g root -u root bin/chezmoi /usr/local/bin/chezmoi
 chezmoi init [--apply] git@github.com:carlosm3011/carlos-dotfiles.git
 ```
 
