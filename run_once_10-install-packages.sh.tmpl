@@ -4,7 +4,7 @@
     {{ if eq .chezmoi.osRelease.idLike "arch" -}}
         sudo pacman -S ripgrep neovim fzf gopass 
     {{ else -}}
-        sudo apt install ripgrep neovim
+        sudo apt install ripgrep neovim gopass
     {{ end -}}
 {{ else if eq .chezmoi.os "darwin" -}}
 #!/bin/sh
