@@ -1,0 +1,6 @@
+{
+  "ca-url": "https://ssh.lacnic-labs.ca.smallstep.com",
+  "fingerprint": "1db67ee463402a798144dd2dac6c2bf1e7cf0858298d01efed6888f852ba6b7e",
+  "root": "/Users/carlos/.step/certs/root_ca.crt",
+  "redirect-url": "https://smallstep.com/app/teams/sso/success"
+}

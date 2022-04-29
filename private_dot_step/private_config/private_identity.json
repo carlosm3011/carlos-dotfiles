@@ -1,0 +1,5 @@
+{
+   "type": "mTLS",
+   "crt": "/Users/carlos/.step/identity/identity.crt",
+   "key": "/Users/carlos/.step/identity/identity_key"
+}

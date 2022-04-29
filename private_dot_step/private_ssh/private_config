@@ -1,0 +1,4 @@
+Match exec "step ssh check-host %h"
+	User carlos
+	UserKnownHostsFile "/Users/carlos/.step/ssh/known_hosts"
+	ProxyCommand step ssh proxycommand --provisioner "gsuite" %r %h %p
