@@ -133,7 +133,7 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # JAVA
-JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-16.jdk/Contents/Home
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"' 
 
 # Si existe, incluyo la config de zoxide
 [[ ! -f ~/.config/zoxide/zoxide.zsh ]] || source ~/.config/zoxide/zoxide.zsh
