@@ -1,0 +1,33 @@
+#!/bin/bash
+
+contname="rpkiclient1"
+image="rpki/rpki-client"
+
+start() {
+	docker run --detach --name $contname $image
+}
+
+logs() {
+	docker logs --follow $contname
+}
+
+vrps() {
+	docker exec $contname cat /var/lib/rpki-client/csv 
+}
+
+cmd() {
+	docker exec $contname $2 $3 $4 $5 $6
+}
+
+
+case "$1" in 
+    start)   start ;;
+    stop)    stop ;;
+    logs)    logs ;;
+    vrps)    vrps ;;
+    cmd)     cmd $1 $2 $3 $4 $5 $6;;
+    restart) stop; start ;;
+    *) echo "usage: $0 start|stop|restart" >&2
+       exit 1
+       ;;
+esac
