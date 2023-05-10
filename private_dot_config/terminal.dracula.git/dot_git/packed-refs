@@ -1,0 +1,26 @@
+# pack-refs with: peeled fully-peeled sorted 
+74cf78da012df5fb7c1c9f929317880b0ebff5e1 refs/remotes/origin/benknoble-tweaks
+c5d470b5b713d927d5e637c0ae2ef83525f3773e refs/remotes/origin/master
+9191b6e88fd9ac7dc459a7c0ae3f090f1f3b4994 refs/tags/v0.2.0
+51864512772ec885952f4c08f9d90c62c6db0ab6 refs/tags/v0.3.0
+51864512772ec885952f4c08f9d90c62c6db0ab6 refs/tags/v0.3.1
+51864512772ec885952f4c08f9d90c62c6db0ab6 refs/tags/v0.4.0
+51864512772ec885952f4c08f9d90c62c6db0ab6 refs/tags/v0.4.1
+51864512772ec885952f4c08f9d90c62c6db0ab6 refs/tags/v0.4.2
+a901525e8ccd503fe1fce280cc7552b7dd168db6 refs/tags/v0.5.0
+344b675e7938581f1c6bd0f1d7cac63d56f1ecb5 refs/tags/v0.6.0
+344b675e7938581f1c6bd0f1d7cac63d56f1ecb5 refs/tags/v0.7.0
+5df5fc6cc9cc8171180d10e6d0bc4eaffe2c5e55 refs/tags/v0.7.1
+5df5fc6cc9cc8171180d10e6d0bc4eaffe2c5e55 refs/tags/v0.7.2
+6d3eec45c4546f66ade4c30e4ae997cc67780788 refs/tags/v0.7.3
+19cd14bffd00dbe3365ba84215181a51043cda19 refs/tags/v0.7.4
+b74bbc58d220ae023f221d9d795a7ea055c211d0 refs/tags/v0.7.5
+63092b8fa60cdd4848c49a0a5999908c304fe02b refs/tags/v0.7.6
+1b7c509211d1f756cf74891075511523269665b0 refs/tags/v1.0.0
+0b8e6b71f30fe0928758fe651c924d7ca303b104 refs/tags/v1.1.0
+f7087b1aa148b7c7d05b606fe2c99df3fb07102a refs/tags/v1.2.0
+e7c5dc5bb95caec0ee84f60183c996b8e5e15781 refs/tags/v1.2.1
+e7c5dc5bb95caec0ee84f60183c996b8e5e15781 refs/tags/v1.2.2
+e7c5dc5bb95caec0ee84f60183c996b8e5e15781 refs/tags/v1.2.3
+e7c5dc5bb95caec0ee84f60183c996b8e5e15781 refs/tags/v1.2.4
+e7c5dc5bb95caec0ee84f60183c996b8e5e15781 refs/tags/v1.2.5
