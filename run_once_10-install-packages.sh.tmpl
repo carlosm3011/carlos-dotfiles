@@ -4,7 +4,7 @@
     {{ if eq .chezmoi.osRelease.id "arch" -}}
         sudo pacman -S ripgrep neovim fzf gopass
     {{ else if eq .chezmoi.osRelease.id "fedora" -}}
-	sudo dnf install neovim git make
+	    sudo dnf install neovim git make zoxide
     {{ else -}}
         sudo apt -y install ripgrep neovim gopass keychain zsh
     {{ end -}}
