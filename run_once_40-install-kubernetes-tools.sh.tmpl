@@ -1,8 +1,10 @@
 {{ if eq .chezmoi.os "linux" -}}
 #!/bin/sh
 #v1
-    {{ if eq .chezmoi.osRelease.idLike "arch" -}}
+    {{ if eq .chezmoi.osRelease.id "arch" -}}
         sudo pacman -S kubectl kubectx kubie
+    {{ else if eq .chezmoi.osRelease.id "fedora" -}}
+        echo no Kubernetes tools for fedora
     {{ else -}}
         # sudo apt install ripgrep neovim
         echo No kubernetes tools for Debian/ubuntu
