@@ -1,8 +1,10 @@
 {{ if eq .chezmoi.os "linux" -}}
 #!/bin/sh
 #v1
-    {{ if eq .chezmoi.osRelease.idLike "arch" -}}
+    {{ if eq .chezmoi.osRelease.id "arch" -}}
         sudo pacman -S ripgrep neovim fzf gopass
+    {{ else if eq .chezmoi.osRelease.id "fedora" -}}
+	    sudo dnf install neovim git make zoxide keychain
     {{ else -}}
         sudo apt -y install ripgrep neovim gopass keychain zsh
     {{ end -}}
