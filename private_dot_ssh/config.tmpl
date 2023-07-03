@@ -12,23 +12,27 @@ Host *
     Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
     StrictHostKeyChecking no
 
-Host ns4.labs.pp
+Host ns4.labs.lac
 	HostName ns4.labs.lacnic.net
 	ProxyJump micron.lacnic.net.uy:1352
 
-Host nssigner.pp
+Host nssigner.lac
 	HostName nssigner.lacnic.net
 	ProxyJump micron.lacnic.net.uy:1352
 
-Host edge03.pp
+Host edge03.lac
 	HostName 200.7.84.37
 	ProxyJump caronte.lacnic.net.uy:1352
 
-Host trantor.pp
+Host trantor.lac
 	HostName trantor.labs.lacnic.net
 	ProxyJump caronte.lacnic.net.uy:1352
 
-Host mvuy13.pp
+Host mail.lac
+	HostName mail.lacnic.net
+	ProxyJump micron.lacnic.net.uy:1352
+
+Host mvuy13.labs.lac
 	HostName mvuy13.labs.lacnic.net
 	ProxyJump caronte.lacnic.net.uy:1352
 
