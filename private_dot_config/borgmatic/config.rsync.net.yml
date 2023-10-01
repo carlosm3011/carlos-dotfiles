@@ -1,0 +1,54 @@
+# List of source directories to backup.
+source_directories:
+    - /Users/carlos/Documents
+    # - /Users/carlos/Downloads
+    # - /Users/carlos/Movies
+    # - /Users/carlos/Music
+    # - /Users/carlos/Pictures
+    # - /Users/carlos/Public
+    - /Users/carlos/Desktop
+    - /Users/carlos/Sync
+    # - /Users/carlos/Sync_Large_Files
+    - /Users/carlos/.local
+    - /Users/carlos/.config
+    - /Users/carlos/.ssh
+
+exclude_patterns:
+  - '*.config/borg*'
+
+encryption_passphrase: 'cocoliso123'
+
+# Paths of local or remote repositories to backup to.
+repositories:
+  # - path: /Volumes/BACKUPS2/Backups/homes.mac
+  #     label: external.ssd
+  #   - path: /Volumes/FOOTAGE/Backups/merlion
+  #     label: external.footage
+     - path: ssh://de2162@de2162.rsync.net/./backups/home.macs.small
+       label: remote.rsync.net
+
+relocated_repo_access_is_ok: true
+
+remote_path: /usr/local/bin/borg1/borg1
+
+# Retention policy for how many backups to keep.
+keep_daily: 7
+keep_weekly: 4
+keep_monthly: 6
+
+# List of checks to run to validate your backups.
+# checks:
+#   - name: repository
+#   - name: archives
+#     frequency: 2 weeks
+
+# Custom preparation scripts to run.
+#efore_backup:
+#   - prepare-for-backup.sh
+
+# Databases to dump and include in backups.
+#ostgresql_databases:
+#   - name: users
+
+# Third-party services to notify you if backups aren't happening.
+#ealthchecks: https://hc-ping.com/be067061-cf96-4412-8eae-62b0c50d6a8c
