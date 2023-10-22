@@ -16,6 +16,8 @@ source_directories:
 exclude_patterns:
   - '*.config/borg*'
 
+match_archives: sh:*
+
 encryption_passphrase: 'cocoliso123'
 
 # Paths of local or remote repositories to backup to.

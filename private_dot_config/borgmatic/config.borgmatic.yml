@@ -14,8 +14,11 @@ source_directories:
     - /Users/carlos/.ssh
     # - /Users/carlos/Library/CloudStorage/Dropbox
     #
+    
 exclude_patterns:
   - '*.config/borg*'
+
+match_archives: sh:*
 
 encryption_passphrase: 'cocoliso123'
 
