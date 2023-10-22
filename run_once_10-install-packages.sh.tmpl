@@ -1,13 +1,13 @@
 #!/bin/bash
 {{ if eq .chezmoi.os "linux" -}}
 #!/bin/sh
-#v1
+#v2
     {{ if eq .chezmoi.osRelease.id "arch" -}}
         sudo pacman -S ripgrep neovim fzf gopass
     {{ else if eq .chezmoi.osRelease.id "fedora" -}}
 	    sudo dnf install neovim git make zoxide keychain
     {{ else -}}
-        sudo apt -y install ripgrep neovim gopass keychain zsh
+        sudo apt -y install ripgrep neovim gopass keychain zsh 
     {{ end -}}
 {{ else if eq .chezmoi.os "darwin" -}}
 #!/bin/sh
@@ -16,5 +16,6 @@ brew install ripgrep neovim wget fzf zoxide
 brew install exa bat
 brew install -f rectangle
 brew install pass gopass keychain
+brew install borgbackup borgmatic
 brew install -f --cask vimr
 {{ end -}}
