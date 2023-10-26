@@ -15,6 +15,7 @@ source_directories:
 
 exclude_patterns:
   - '*.config/borg*'
+  - '*virtualenvs/*'
 
 match_archives: sh:*
 
