@@ -7,7 +7,6 @@ source_directories:
     - /Users/carlos/Public
     - /Users/carlos/Desktop
     - /Users/carlos/Sync
-    - /Users/carlos/Sync_Large_Files
     - /Users/carlos/.local
     - /Users/carlos/.config
     - /Users/carlos/.ssh
