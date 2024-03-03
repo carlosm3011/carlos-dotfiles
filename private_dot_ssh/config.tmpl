@@ -12,6 +12,10 @@ Host *
     Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
     StrictHostKeyChecking no
 
+Host gitlab.lac
+	HostName gitlab.lacnic.net.uy
+	ProxyJump micron.lacnic.net.uy:1352
+
 Host rpki-hs1.lac
 	HostName rpki-hs1.lacnic.net
 	ProxyJump micron.lacnic.net.uy:1352
