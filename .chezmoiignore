@@ -1,1 +1,3 @@
 .oh-my-zsh/cache/
+.ssh/.id_rsa
+.ssh/.id_rsa.pub
