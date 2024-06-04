@@ -13,7 +13,7 @@ source_directories:
     
 exclude_patterns:
   - '*.config/borg*'
-  - 'filterlog.html'
+  - '*.filterlog.html*'  
 
 match_archives: sh:*
 
