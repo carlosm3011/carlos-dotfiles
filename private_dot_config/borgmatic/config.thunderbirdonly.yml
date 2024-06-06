@@ -12,7 +12,7 @@ local_path: /opt/homebrew/bin/borg
 
 archive_name_format: '{hostname}-thunderbird-{now}'
 
-match_archives: sh:*
+match_archives: sh:*thunderbird*
 
 encryption_passphrase: 'cocoliso123'
 
