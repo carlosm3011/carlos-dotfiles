@@ -135,6 +135,9 @@ source $ZSH/oh-my-zsh.sh
 # JAVA
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH" 
 
+# CARGO
+export PATH="$PATH:/Users/carlos/.cargo/bin" 
+
 # Si existe, incluyo la config de zoxide
 [[ ! -f ~/.config/zoxide/zoxide.zsh ]] || source ~/.config/zoxide/zoxide.zsh
 alias cd=z
