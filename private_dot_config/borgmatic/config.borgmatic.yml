@@ -10,6 +10,7 @@ source_directories:
     - /Users/carlos/.local
     - /Users/carlos/.config
     - /Users/carlos/.ssh
+    - /Users/carlos/Checkouts
     
 exclude_patterns:
   - '*.config/borg*'
