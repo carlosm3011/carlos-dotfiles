@@ -1,7 +1,6 @@
 # List of source directories to backup.
 source_directories:
     - /Users/carlos/Documents
-    - /Users/carlos/Checkouts
     # - /Users/carlos/Downloads
     # - /Users/carlos/Movies
     # - /Users/carlos/Music
