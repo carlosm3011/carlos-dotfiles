@@ -16,7 +16,7 @@ source_directories:
 exclude_patterns:
   - '*.config/borg*'
   - '*virtualenvs/*'
-  - 'filterlog.html'
+  - '*filterlog.html*'
 
 match_archives: sh:*
 
@@ -24,10 +24,6 @@ encryption_passphrase: 'cocoliso123'
 
 # Paths of local or remote repositories to backup to.
 repositories:
-  # - path: /Volumes/BACKUPS2/Backups/homes.mac
-  #     label: external.ssd
-  #   - path: /Volumes/FOOTAGE/Backups/merlion
-  #     label: external.footage
      - path: ssh://de2162@de2162.rsync.net/./backups/home.macs.small
        label: remote.rsync.net
 

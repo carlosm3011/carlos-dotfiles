@@ -4,7 +4,8 @@ source_directories:
 
 exclude_patterns:
   - '*.config/borg*'
-  - '*.filterlog.html*'
+  - '*/filterlog.html'
+  - 'filterlog.html'
 
 
 remote_path: /usr/local/bin/borg1/borg1

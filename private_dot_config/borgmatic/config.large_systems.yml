@@ -17,6 +17,7 @@ source_directories:
     
 exclude_patterns:
   - '*.config/borg*'
+  - '*.filterlog.html*'
 
 match_archives: sh:*
 
@@ -30,6 +31,8 @@ repositories:
       label: external.footage
     - path: ssh://fserver7.in.xt6.us/./Backups/home.macs
       label: remote.fserver7
+    - path: /Volumes/SeagateXp01/Backups/homes.macs
+      label: external.seagatexp01
 
 relocated_repo_access_is_ok: true
 
@@ -56,3 +59,4 @@ keep_monthly: 6
 
 # Third-party services to notify you if backups aren't happening.
 #ealthchecks: https://hc-ping.com/be067061-cf96-4412-8eae-62b0c50d6a8c
+
