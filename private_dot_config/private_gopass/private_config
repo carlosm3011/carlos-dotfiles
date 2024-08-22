@@ -1,9 +1,7 @@
 [core]
-	showsafecontent = false
 	notifications = true
 	parsing = true
 	autoimport = true
-	autoclip = false
 	exportkeys = true
 	nopager = false
 	cliptimeout = 45
@@ -19,3 +17,7 @@
 	hash = 4b1ccea19f6aa40f58567917775b32a3533f421dc5b24d64fd06a8612dd26b94
 [recipients "xt6"]
 	hash = efec83b55da2c43a997b5d3c13432690c4506795155aa71d25e6f845fcdef180
+[show]
+	safecontent = false
+[generate]
+	autoclip = false

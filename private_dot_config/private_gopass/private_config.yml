@@ -8,8 +8,5 @@ parsing: true
 path: ~/Sync/Vault/password-store
 safecontent: false
 mounts:
-    {{ if eq .chezmoi.os "darwin" -}}
     xt6: /Users/carlos/Sync/Vault/password-store-xt6
-    {{ else -}}
-    xt6: /home/carlos/Sync/Vault/password-store-xt6
-    {{ end -}}
+    
