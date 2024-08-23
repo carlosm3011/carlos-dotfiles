@@ -1,10 +1,5 @@
-
-[Checkouts/cm/p5js-raycasting]
-checkout = git clone 'https://carlosm3011@bitbucket.org/carlosm3011/p5js-raycasting.git' 'p5js-raycasting'
-
 [Checkouts/lacnic/publicacion-rpkiv5]
 checkout = git clone 'git@gitlab.lac:ingenieria/publicacion-rpkiv5.git' 'publicacion-rpkiv5'
 
 [Checkouts/cm/cm-alpha-workshop]
 checkout = git clone 'git@gitlab.in.xt6.us:carlos/cm-alpha-workshop.git' 'cm-alpha-workshop'
-
