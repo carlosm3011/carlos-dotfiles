@@ -8,11 +8,3 @@ checkout = git clone 'git@gitlab.lac:ingenieria/publicacion-rpkiv5.git' 'publica
 [Checkouts/cm/cm-alpha-workshop]
 checkout = git clone 'git@gitlab.in.xt6.us:carlos/cm-alpha-workshop.git' 'cm-alpha-workshop'
 
-[Checkouts/cm-alpha-workshop]
-checkout = git clone 'git@gitlab.in.xt6.us:carlos/cm-alpha-workshop.git' 'cm-alpha-workshop'
-
-[Checkouts/computer-graphics]
-checkout = git clone 'git@gitlab.in.xt6.us:creative/computer-graphics.git' 'computer-graphics'
-
-[Checkouts/machine-learning]
-checkout = git clone 'git@gitlab.in.xt6.us:creative/machine-learning.git' 'machine-learning'
