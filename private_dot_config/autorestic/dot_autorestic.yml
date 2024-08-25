@@ -1,0 +1,29 @@
+backends:
+  fserver7:
+    type: sftp
+    path: carlos@fserver7.in.xt6.us:/home/Backups/restic/thunderbird
+    key: ""
+    env:
+      restic_password: cocoliso123
+    rest:
+      user: ""
+      password: ""
+    options: {}
+locations:
+  thunderbird:
+    from:
+    - /home/carlos/Documents/Thunderbird/vo3qy0gg.quiet-sloth
+    type: ""
+    to:
+    - fserver7
+    hooks:
+      dir: ""
+      prevalidate: []
+      before: []
+      after: []
+      success: []
+      failure: []
+    cron: ""
+    options: {}
+    copyoption: {}
+version: 2
