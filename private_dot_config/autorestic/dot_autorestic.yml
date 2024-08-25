@@ -1,5 +1,5 @@
 backends:
-  fserver7:
+  fserver7_th:
     type: sftp
     path: carlos@fserver7.in.xt6.us:/home/Backups/restic/thunderbird
     key: ""
@@ -9,13 +9,37 @@ backends:
       user: ""
       password: ""
     options: {}
+  fserver7_full:
+    type: sftp
+    path: carlos@fserver7.in.xt6.us:/home/Backups/restic/full
+    key: ""
+    env:
+      restic_password: cocoliso123
+    rest:
+      user: ""
+      password: ""
+    options: {}
 locations:
+  generic:
+    from:
+    - /home/carlos/Downloads
+    - /home/carlos/Music
+    - /home/carlos/Pictures
+    - /home/carlos/Videos
+    - /home/carlos/Documents
+    type: ""
+    options: 
+      backup:
+        exclude: 
+          - 'Thunderbird*'
+    to:
+    - fserver7_th
   thunderbird:
     from:
     - /home/carlos/Documents/Thunderbird/vo3qy0gg.quiet-sloth
     type: ""
     to:
-    - fserver7
+    - fserver7_th
     hooks:
       dir: ""
       prevalidate: []
