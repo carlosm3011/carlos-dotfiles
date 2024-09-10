@@ -142,6 +142,9 @@ export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 # CARGO
 export PATH="$PATH:/Users/carlos/.cargo/bin" 
 
+# BREW UPGRADE INTERVAL
+export HOMEBREW_AUTO_UPDATE_SECS=86400
+
 # Si existe, incluyo la config de zoxide
 [[ ! -f ~/.config/zoxide/zoxide.zsh ]] || source ~/.config/zoxide/zoxide.zsh
 alias cd=z
