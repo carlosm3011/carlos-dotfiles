@@ -19,10 +19,21 @@ backends:
       user: ""
       password: ""
     options: {}
+  local.seagatexp01:
+    type: local
+    path: /Volumes/SeagateXp01/Restic
+    key: ""
+    env:
+      restic_password: cocoliso123
+    rest:
+      user: ""
+      password: ""
+    options: {}
 locations:
-  generic:
+  full_at_home:
     from:
     - /home/carlos/Downloads
+    - /home/carlos/Sync
     - /home/carlos/Music
     - /home/carlos/Pictures
     - /home/carlos/Videos
