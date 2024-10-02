@@ -1,0 +1,44 @@
+backends:
+  fserver7_full:
+    type: sftp
+    path: carlos@fserver7.in.xt6.us:/home/Backups/restic/full
+    key: ""
+    env:
+      restic_password: cocoliso123
+    rest:
+      user: ""
+      password: ""
+    options: {}
+  local_seagatexp01:
+    type: local
+    path: /Volumes/SeagateXp01/Restic
+locations:
+  full_at_home:
+    - /home/carlos/Downloads
+    - /home/carlos/Sync
+    - /home/carlos/Documents
+    - /home/carlos/Desktop
+    type: ""
+    options: 
+      backup:
+        exclude: 
+          - 'Thunderbird*'
+    to:
+    - fserver7_full
+  thunderbird_at_home:
+    from:
+    - /home/carlos/Documents/Thunderbird/vo3qy0gg.quiet-sloth
+    type: ""
+    to:
+    - fserver7_full
+    hooks:
+      dir: ""
+      prevalidate: []
+      before: []
+      after: []
+      success: []
+      failure: []
+    cron: ""
+    options: {}
+    copyoption: {}
+version: 2
