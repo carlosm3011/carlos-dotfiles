@@ -8,6 +8,7 @@
 	    sudo dnf install neovim git make zoxide keychain
     {{ else -}}
         sudo apt -y install ripgrep neovim gopass keychain zsh 
+        sudo apt -y install borgbackup borgmatic vorta zoxide keychain
     {{ end -}}
 {{ else if eq .chezmoi.os "darwin" -}}
 #!/bin/sh
