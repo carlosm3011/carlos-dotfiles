@@ -6,3 +6,6 @@ checkout = git clone 'git@gitlab.in.xt6.us:carlos/cm-alpha-workshop.git' 'cm-alp
 
 [Checkouts/lacnic/rdap-ddos-mitigation]
 checkout = git clone 'git@gitlab.lacnic.net.uy:ingenieria/infraestructura/rdap-ddos-mitigation.git' 'rdap-ddos-mitigation'
+
+[Checkouts/lacnic/medicion-sla.git]
+checkout = git clone 'git@gitlab.lac:ingenieria/medicion-sla.git' 'medicion-sla.git'
