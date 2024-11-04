@@ -31,6 +31,8 @@ repositories:
       label: external.seagatexp01        
     - path: /Volumes/G-DRIVE-ArmorATD/backups/borg/homes.macs
       label: external.armoratd       
+    - path: /Volumes/T7/backups/borg/homes.macs
+      label: external.t7
 
 relocated_repo_access_is_ok: true
 

@@ -27,6 +27,7 @@ repositories:
       label: remote.fserver7
     - path: /Volumes/SeagateXp01/Backups/homes.macs
       label: external.seagatexp01        
+      bsd_flags: false
     - path: /Volumes/G-DRIVE-ArmorATD/backups/borg/homes.macs
       label: external.armoratd
     - path: ssh://de2162@de2162.rsync.net/./backups/home.macs.small
