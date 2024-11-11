@@ -9,3 +9,6 @@ checkout = git clone 'git@gitlab.lacnic.net.uy:ingenieria/infraestructura/rdap-d
 
 [Checkouts/lacnic/medicion-sla.git]
 checkout = git clone 'git@gitlab.lac:ingenieria/medicion-sla.git' 'medicion-sla.git'
+
+[Checkouts/lacnic/formulario-cccl]
+checkout = git clone 'git@github.com:gianniarena/formulario-cccl.git' 'formulario-cccl'
