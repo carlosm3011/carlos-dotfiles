@@ -1,3 +1,6 @@
 # eval "$(/opt/homebrew/bin/brew shellenv)"
 export HOMEBREW_GITHUB_API_TOKEN='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'
 alias cd='z'
+
+# integrate fzf
+source <(/opt/homebrew/bin/fzf --zsh)
