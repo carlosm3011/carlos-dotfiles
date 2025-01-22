@@ -12,9 +12,7 @@
 Crear carpetas para alojar los acceos:
 
 ```
-mkdir -p ~/SD/home
-mkdir -p ~/SD/Fotos-LyM
-mkdir -p ~/SD/Sync
+mkdir -p ~/SD
 ```
 
 Luego crear los symlinks:
