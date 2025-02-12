@@ -33,6 +33,8 @@ repositories:
     - path: ssh://de2162@de2162.rsync.net/./backups/home.macs.small
       label: remote.rsync.net      
       bsd_flags: false
+    - path: /Volumes/SSK Drive/Backups/borg/homes.macs
+      label: external.ssk
 
 relocated_repo_access_is_ok: true
 
