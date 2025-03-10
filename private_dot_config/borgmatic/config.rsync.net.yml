@@ -17,6 +17,7 @@ exclude_patterns:
   - '*.config/borg*'
   - '*virtualenvs/*'
   - '*filterlog.html*'
+  - '*.local/share/virtualenvs/*'
 
 match_archives: sh:*
 
