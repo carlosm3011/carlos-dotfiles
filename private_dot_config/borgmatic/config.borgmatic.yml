@@ -14,6 +14,10 @@ source_directories:
 exclude_patterns:
   - '*.config/borg*'
   - '*.filterlog.html*'  
+  - '*.mp3'
+  - '*.iso'
+  - '*.dmg'
+  - '*local/share/virtualenvs/*'
 
 match_archives: sh:*
 
