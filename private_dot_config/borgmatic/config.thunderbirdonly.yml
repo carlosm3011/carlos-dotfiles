@@ -17,6 +17,14 @@ match_archives: sh:*thunderbird*
 
 encryption_passphrase: 'cocoliso123'
 
+# Cleanup hooks
+commands:
+    - before: action
+      when: [create]
+      run: 
+         - echo "1. Borrando los filterlog"
+         - find /Users/carlos/Documents/Thunderbird -type f -name 'filterlog.html' -delete -print
+
 # Paths of local or remote repositories to backup to.
 repositories:
     - path: /Volumes/BACKUPS2/Backups/homes.mac
@@ -27,12 +35,12 @@ repositories:
       label: remote.fserver7
     - path: /Volumes/SeagateXp01/Backups/homes.macs
       label: external.seagatexp01        
-      bsd_flags: false
+      # bsd_flags: false
     - path: /Volumes/G-DRIVE-ArmorATD/backups/borg/homes.macs
       label: external.armoratd
     - path: ssh://de2162@de2162.rsync.net/./backups/home.macs.small
       label: remote.rsync.net      
-      bsd_flags: false
+      # bsd_flags: false
     - path: /Volumes/SSK Drive/Backups/borg/homes.macs
       label: external.ssk
 
