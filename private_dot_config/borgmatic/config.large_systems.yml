@@ -9,11 +9,15 @@ source_directories:
     - /Users/carlos/Desktop
     - /Users/carlos/Sync
     - /Users/carlos/Sync_Large_Files
+    - /Users/carlos/Library/CloudStorage/SynologyDrive-home/Documents
+    - /Users/carlos/Library/CloudStorage/SynologyDrive-home/Historico
+    - /Users/carlos/Library/CloudStorage/SynologyDrive-home/Lab
+    - /Users/carlos/Library/CloudStorage/SynologyDrive-home/Fotos
+    - /Users/carlos/Library/CloudStorage/SynologyDrive-home/Photos
+    - /Users/carlos/Library/CloudStorage/SynologyDrive-home/Media
     - /Users/carlos/.local
     - /Users/carlos/.config
     - /Users/carlos/.ssh
-    # - /Users/carlos/Library/CloudStorage/Dropbox
-    #
     
 exclude_patterns:
   - '*.config/borg*'
