@@ -22,6 +22,8 @@ source_directories:
 exclude_patterns:
   - '*.config/borg*'
   - '*.filterlog.html*'
+  - '/Users/carlos/.local/share/virtualenvs/*'
+  - '/Users/carlos/.local/share/nvim/*'
 
 match_archives: sh:*
 
