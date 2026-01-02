@@ -39,6 +39,8 @@ repositories:
       label: remote.fserver7
     - path: /Volumes/SeagateXp01/Backups/homes.macs
       label: external.seagatexp01
+    - path: /Volumes/Pangolin2/Backups/homes.macs
+      label: external.pangolin2
 
 relocated_repo_access_is_ok: true
 
