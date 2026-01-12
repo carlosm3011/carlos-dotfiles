@@ -44,6 +44,8 @@ repositories:
       # bsd_flags: false
     - path: /Volumes/SSK Drive/Backups/borg/homes.macs
       label: external.ssk
+    - path: /Volumes/Pangolin2/Backups/borg/homes.macs
+      label: external.pangolin2
 
 relocated_repo_access_is_ok: true
 

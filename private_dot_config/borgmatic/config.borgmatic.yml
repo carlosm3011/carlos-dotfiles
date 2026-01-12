@@ -18,6 +18,7 @@ exclude_patterns:
   - '*.iso'
   - '*.dmg'
   - '*local/share/virtualenvs/*'
+  - '/Users/carlos/.local/share/nvim/*' 
 
 match_archives: sh:*
 
