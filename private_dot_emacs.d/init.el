@@ -23,6 +23,9 @@
 (add-to-list 'default-frame-alist '(font . "Monaco-14"))
 (setq inhibit-startup-screen t)
 
+(global-visual-line-mode t)
+(setq-default fill-column 110)
+
 
 
 (custom-set-variables
