@@ -1,3 +1,5 @@
 [user]
 	email = carlos@cagnazzo.uy
 	name = Carlos Martinez
+[pager]
+	branch = false
