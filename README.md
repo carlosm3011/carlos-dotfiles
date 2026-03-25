@@ -2,10 +2,20 @@
 
 ## Instalar chezmoi
 
+### Solamente clonar el repositorio 
+
 ```
 curl -sfL https://git.io/chezmoi | sh
 install -m 0711 -g root -u root bin/chezmoi /usr/local/bin/chezmoi
-chezmoi init [--apply] git@github.com:carlosm3011/carlos-dotfiles.git
+chezmoi init --apply git@github.com:carlosm3011/carlos-dotfiles.git
+```
+
+### Clonar el repositorio y aplicar todos los cambios pendientes
+
+```
+curl -sfL https://git.io/chezmoi | sh
+install -m 0711 -g root -u root bin/chezmoi /usr/local/bin/chezmoi
+chezmoi init --apply git@github.com:carlosm3011/carlos-dotfiles.git
 ```
 
 El "apply" es opcional, lo que hace es aplicar junto con el checkout todos los cambios pendientes.
