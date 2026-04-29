@@ -47,6 +47,8 @@ repositories:
       label: external.t7
     - path: /Volumes/SSK Drive/Backups/borg/homes.macs
       label: external.ssk
+    - path: /Volumes/SeagateExpDrive/Backups/borg/homes.macs
+      label: external.sed
 
 relocated_repo_access_is_ok: true
 
