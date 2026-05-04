@@ -12,7 +12,8 @@ backends:
 locations:
   thunderbird:
     from:
-    - /home/carlos/Documents/Thunderbird/vo3qy0gg.quiet-sloth
+    # - /home/carlos/Documents/Thunderbird/vo3qy0gg.quiet-sloth
+    - /Users/carlos/Documents/Thunderbird/vo3qy0gg.quiet-sloth
     type: ""
     to:
     - fserver7_th

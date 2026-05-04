@@ -1,0 +1,67 @@
+# Use a cleaner, human-readable format
+archive_name_format: "{hostname}-{now:%Y-%m-%d-%H%M}"
+
+# List of source directories to backup.
+source_directories:
+    - /Users/carlos/Documents
+    - /Users/carlos/Downloads
+    - /Users/carlos/Movies
+    - /Users/carlos/Music
+    - /Users/carlos/Public
+    - /Users/carlos/Desktop
+    - /Users/carlos/Sync
+    - /Users/carlos/.local
+    - /Users/carlos/.config
+    - /Users/carlos/.ssh
+    # - /Users/carlos/SD/Sync/Documents
+    # - /Users/carlos/SD/Sync/Photos
+    # - /Users/carlos/SD/Sync/Checkouts
+    # - /Users/carlos/SD/Sync/Library
+    # - /Users/carlos/SD/Dev
+    - /Users/carlos/mnt/Sync
+    - /Users/carlos/mnt/Development
+    - /Users/carlos/mnt/Home
+    
+exclude_patterns:
+  - '*.config/borg*'
+  - '*.filterlog.html*'  
+  - '*.mp3'
+  - '*.iso'
+  - '*.dmg'
+  - '*local/share/virtualenvs/*'
+  - '/Users/carlos/.local/share/nvim/*' 
+
+match_archives: sh:*
+
+encryption_passphrase: 'cocoliso123'
+
+# Paths of local or remote repositories to backup to.
+repositories:
+    - path: /Volumes/SeagateExpDrive/Backups/borg/homes.macs
+      label: external.sed
+
+relocated_repo_access_is_ok: true
+
+remote_path: /usr/local/bin/borg
+
+# Retention policy for how many backups to keep.
+keep_daily: 7
+keep_weekly: 4
+keep_monthly: 6
+
+# List of checks to run to validate your backups.
+# checks:
+#   - name: repository
+#   - name: archives
+#     frequency: 2 weeks
+
+# Custom preparation scripts to run.
+#efore_backup:
+#   - prepare-for-backup.sh
+
+# Databases to dump and include in backups.
+#ostgresql_databases:
+#   - name: users
+
+# Third-party services to notify you if backups aren't happening.
+#ealthchecks: https://hc-ping.com/be067061-cf96-4412-8eae-62b0c50d6a8c
