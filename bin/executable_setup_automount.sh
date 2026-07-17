@@ -41,9 +41,9 @@ set -euo pipefail
 # key|server|share(URL-encoded)|username
 SHARES=(
   "fserver7_Sync|fserver7.in.xt6.us|Sync|carlos"
-  "fserver7_Devel|fserver7.in.xt6.us|Devel|carlos"
+  "fserver7_Devel|fserver7.in.xt6.us|Development|carlos"
   "fserver7_Home|fserver7.in.xt6.us|Home|carlos"
-  "fserver7_FotosLaureanaYMarcelo|fserver7.in.xt6.us|Fotos%20Laureana%20y%20Marcelo|carlos"
+  "fserver7_Fotos|fserver7.in.xt6.us|Fotos%20Laureana%20y%20Marcelo|carlos"
 )
 
 AUTO_MASTER=/etc/auto_master
