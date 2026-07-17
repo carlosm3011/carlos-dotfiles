@@ -7,10 +7,10 @@ Host *
     ServerAliveCountMax 2
     PubkeyAcceptedKeyTypes +ssh-rsa
     KexAlgorithms +diffie-hellman-group1-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
-    # diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
     HostKeyAlgorithms +ssh-rsa
     Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
     StrictHostKeyChecking no
+    UserKnownHostsFile /dev/null
 
 Host gitlab.lac
 	HostName gitlab.lacnic.net.uy

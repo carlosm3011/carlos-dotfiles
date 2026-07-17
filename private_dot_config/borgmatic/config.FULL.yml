@@ -1,5 +1,5 @@
 # Use a cleaner, human-readable format
-archive_name_format: "{hostname}-{now:%Y-%m-%d-%H%M}"
+archive_name_format: "{hostname}-FULL-{now:%Y-%m-%d-%H%M}"
 
 # List of source directories to backup.
 source_directories:
