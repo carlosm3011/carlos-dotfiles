@@ -9,18 +9,19 @@ source_directories:
     - /Users/carlos/Music
     - /Users/carlos/Public
     - /Users/carlos/Desktop
-    - /Users/carlos/Sync
+    # - /Users/carlos/Sync
     - /Users/carlos/.local
     - /Users/carlos/.config
     - /Users/carlos/.ssh
+    - /Users/carlos/claude-local
     # - /Users/carlos/SD/Sync/Documents
     # - /Users/carlos/SD/Sync/Photos
     # - /Users/carlos/SD/Sync/Checkouts
     # - /Users/carlos/SD/Sync/Library
     # - /Users/carlos/SD/Dev
-    - /Users/carlos/mnt/Sync
-    - /Users/carlos/mnt/Development
-    - /Users/carlos/mnt/Home
+    # - /Users/carlos/mnt/Sync
+    # - /Users/carlos/mnt/Development
+    # - /Users/carlos/mnt/Home
     
 exclude_patterns:
   - '*.config/borg*'
